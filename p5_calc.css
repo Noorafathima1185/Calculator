@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(12, 49, 66) !important;
+/* font-family: Arial, sans-serif; */
+}
+
+.calculator {
+width: 350px;
+margin: 50px auto;
+border: 2px solid white;
+/* border-radius: 5px; */
+padding: 10px;
+/* background-color:  rgb(12, 49, 66) ; */
+}
+
+.display {
+width: 80%;
+height: 50px;
+margin-bottom: 10px;
+font-size: 24px;
+text-align: right;
+padding: 5px;
+}
+
+#ac{
+    width: 18.5%;
+    height: 50%;
+    padding: 12px;
+    border: none;
+    color: red;
+}
+
+#delete{
+    color: red;
+}
+
+button{
+background-color:  rgb(12, 49, 66) ;
+border: 2px solid white !important;
+}
+
+.bttn{
+    color: yellow;
+}
+
+.keys {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 3px;
+}
+
+.keys button {
+width: 100%;
+height: 40px;
+font-size: 18px;
+border: none;
+/* border-radius: 5px; */
+/* background-color: #eee; */
+}
